@@ -1,6 +1,6 @@
 > Uses for Immersion Day project, organised by LSEG Bangkok only.
 # Travelogo Dashboard Features Specifications
-This guideline describes an overview purposes and features of Travelogo Dashboard.
+This guideline describes an overview of purposes and features of Travelogo Dashboard.
 
 ## Purposes
 Travelogo is an agency platform providing a marketplace for hotel business to manage booking. The dashboard is add-on service, free-of-charge, for all Travelogo customers to view statistics and analytics data.
@@ -26,6 +26,6 @@ Dashboard provides multiple small pie charts to represent various information. A
 
 ## Key Numbers
 Key number displays on a side of dashboard.
-* **Average Rating** is calculate by using a simple average formula, _Average = {Sum of Observations} ÷ {Total number of Observations}_. Data is calculated by using rating from all traveller in last 12 months.
-* **Average Monthly** is calculate by using a simple average formula, _Average = {Sum of Observations} ÷ {Total number of Observations}_. Data is calculated by using rating from all traveller in last 12 months.
+* **Average Rating** is calculated by using a simple average formula, _Average = {Sum of Observations} ÷ {Total number of Observations}_. Data is calculated by using rating from all traveller in last 12 months.
+* **Average Monthly** is calculated by using a simple average formula, _Average = {Sum of Observations} ÷ {Total number of Observations}_. Data is calculated by using rating from all traveller in last 12 months.
 * **ESG** is Environmental, social, and governance ([ESG](https://en.wikipedia.org/wiki/Environmental,_social,_and_corporate_governance)) scores that assess and gived by LSEG (London Stock Exchange Group)
