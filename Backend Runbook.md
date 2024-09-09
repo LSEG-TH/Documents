@@ -101,14 +101,14 @@ Now we will going into the programming path, we need to mock the response to ret
 
 1. We can copy the expected result and assign it to some variable, then return it before start modify
 
-   ```json
+   ```javascript
    const response = {
-       "data":{
-         "booking":  [10, 20, 30, 40, 50, 60],
-         "checkin":  [10, 20, 30, 40, 50, 60]
-       },
-       "statusCode": "200"
-       }
+     data: {
+       booking: [10, 20, 30, 40, 50, 60],
+       checkin: [10, 20, 30, 40, 50, 60],
+     },
+     statusCode: "200",
+   };
    return res.json(response);
    ```
 
@@ -128,14 +128,14 @@ Now we will going into the programming path, we need to mock the response to ret
 
    then replace response value with the correct one
 
-   ```json
+   ```js
    const response = {
-       "data":{
-         "booking": bookingOneYear,
-         "checkin": checkInOneYear
-       },
-       "statusCode": "200"
-       }
+     data: {
+       booking: bookingOneYear,
+       checkin: checkInOneYear,
+     },
+     statusCode: "200",
+   };
    ```
 
 3. navigate to `http://localhost:3030/api/v1/oneYearSeasonalBookingCheckInData` and you will see the final result
